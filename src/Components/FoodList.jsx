@@ -12,7 +12,7 @@ export default function FoodList(props) {
     <>
     
     <div className='container'>
-    <h3 className=' pt-3 Pb-3'>Food Items</h3>
+    <h3 className=' pt-3 pb-3'>Food Items</h3>
     <ul className="list-group">
         {  
             item.map((x)=>{
